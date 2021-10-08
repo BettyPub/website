@@ -1,0 +1,499 @@
+* {
+    box-sizing: border-box;
+    overflow-x: hidden;
+    font-family: 'Montserrat', sans-serif;
+  }
+.navbar-dark {
+    background-color: #2A2765;
+}
+.nav-link {
+    color: white !important;
+}
+.navbar-nav > li > a:hover {
+    background-color: #A41E58;
+}
+body {
+    font-weight: 300;
+    color: #ffffff;
+    opacity: 0;
+    transition: opacity 4s;
+}
+main {
+    background-color: #fafafa;
+}
+h1, h2, h3, h5 {
+    color: #A41E58;
+}
+
+.headline {
+    position:absolute; 
+    padding-top:100px; 
+    padding-left:20px;
+}
+.bg-image{
+    height: 400px;
+    width: 100%;
+    margin-top: 70px;
+}
+h1 {
+    font-size: 16px;
+    font-weight:900;
+    font-family: 'Montserrat-bold';
+}
+h2 {
+    padding: 30px 0px;
+    font-size: 40px !important;
+}
+h6 {
+    color: #ffffff;
+}
+p {
+    color: #000;
+    font-size: 18px;
+}
+a  {
+    color: #2A2765 !important;
+}
+.headingtext {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+.container1 {
+    padding: 70px 30px 70px 30px;
+}
+.containergray {
+    padding: 70px 30px 70px 30px;
+    background-color: #fbcdcd;
+}
+#contacttab {
+    background-color: #f38bb9;
+}
+.portfoliotab {
+    margin: 50px 0px;
+}
+.service {
+    text-align: center;
+    padding: 15px 30px;
+    width: 350px;
+    margin: auto;
+}
+.icon {
+    background-color:#2A2765;
+    border-radius: 50%;
+    padding-bottom: 0px;
+}
+.icon:hover, .button:hover {
+    background-color: #A41E58;
+  }
+
+.d-flex {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    max-width: 1200px;
+    margin: auto;
+    flex-wrap: wrap;
+}
+.services img, .contact-container img {
+    width: 200px;
+    margin-bottom: 25px;
+}
+.headshotcontainer{
+    width: 550px;
+}
+.headshot {
+    width: 450px !important;
+}
+#abouttab {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.about {
+    width: 500px;
+}
+#logo {
+    width: 250px;"
+}
+.portf { 
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+   justify-content: space-evenly;
+}
+.portf img{ 
+    padding-bottom: 25px;
+    width: cover;
+}
+#portfoliotab {
+    margin-bottom: 80px;
+    margin: auto;
+}
+form {
+    margin: auto;
+    padding: 30px;
+    background-color:#fbcdcd;
+    color: white;
+    width: 90%;
+    border-radius: 10px;
+}
+.portfoliorow {
+        margin: 8px -16px;
+        width: 80%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+}
+
+
+/* Add padding BETWEEN each column (if you want) */
+.portfoliorow,
+.portfoliorow > .portfoliocolumn {
+  padding: 8px;
+}
+
+/* Create three equal columns that floats next to each other */
+.portfoliocolumn {
+    float: left;
+    min-width: 33.33%;
+    display: none; /* Hide columns by default */
+  }
+
+/* Clear floats after rows */
+.portfoliorow:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.content img {
+    padding-bottom: 8px;
+}
+
+#myBtnContainer {
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-bottom: 20px;
+}
+
+.space {
+    margin: 10px 10px;
+}
+/* Content */
+.content {
+    background-color: white;
+    padding: 10px;
+}
+
+/* The "show" class is added to the filtered elements */
+.show {
+    display: block;
+}
+  
+
+.contact {
+        text-align: center;
+        padding: 15px 12px;
+        width: 120px;
+}
+form > div {
+    padding-top: 15px;
+}
+div > label {
+    padding: 10px 0px;
+}
+.submit {
+    padding-top: 15px;
+}
+.button {
+    padding: 10px 20px;
+    background-color: #2A2765;
+    color: white;
+    border: none;
+    border-radius: 20px;
+}
+footer {
+    background-color: #252525; 
+    color: #ffffff;
+}
+.fa { 
+    color: #ffffff;
+    width: 50px;
+}
+.socialmedia {
+    padding-bottom: 10px;
+}
+.footer-text {
+    color: #ffffff;
+    padding: 10px 0px;
+}
+.contact-container {
+    display: flex;
+    flex-direction: column;  
+    margin: auto;
+    align-items: center;
+}
+@media only screen and (min-width: 600px) {
+    form {
+        width: 80%;
+    }
+    .portf img{ 
+        height: 380px; 
+        padding-bottom: 25px;
+        width: auto !important;
+    }
+}
+@media only screen and (min-width: 768px) {
+       .headline {
+            position: absolute;
+            top: 25%; 
+            left: 25%;
+            text-align: center;
+        }
+      h1 {
+          font-size: 90px !important;
+      }
+      main { 
+          padding-top: 0px; 
+      }
+      .services, .contact-container {
+        flex-direction: row;
+    }
+    .d-flex, .contact-container {
+        flex-direction: row !important;
+    }
+    .contact-container {
+        justify-content: center;
+    }
+    .bg-image{
+        background-image: url(header2.png); 
+        height: 600px;
+    }
+    .portfoliorow {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .portfoliocolumn {
+        max-width: 33.33%;
+      }
+
+    #myBtnContainer {
+        display: flex;
+        flex-direction: row;
+    }
+
+    }
+
+    @media only screen and (min-width: 992px) {
+        .navbar li {
+            margin-left : 2em;
+            margin-right : 2em;
+        }
+        form {
+            width: 55%;
+        }
+    }
+
+    @media only screen and (min-width: 1400px) {
+        
+    
+    }
+    @media only screen and (min-width: 1900px) {
+        
+        .about {
+            margin: 0px 20px !important;
+            padding: 0px 40px;
+        }
+    }
+
+    /* Slideshow container */
+.slideshow-container {
+    position: relative;
+    background: #facbcd;
+  }
+  
+  /* Slides */
+  .mySlides {
+    display: none;
+    padding: 80px;
+    text-align: center;
+  }
+  
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -30px;
+    padding: 16px;
+    color: #2a2665;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    position: absolute;
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(42,38,101,0.8);
+    color: white;
+  }
+  
+  /* The dot/bullet/indicator container */
+  .dot-container {
+      text-align: center;
+      padding: 20px;
+      background: #facbcd;
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  /* Add a background color to the active dot/circle */
+  .active, .dot:hover {
+    background-color: #f38bb9;
+  }
+  
+  /* Add an italic font style to all quotes */
+  q {font-style: italic;}
+  
+  /* Add a blue color to the author */
+  .author {color: #2a2665;}
+
+  .btn.btn-outline-primary:hover, .bg-primary {
+    background-color: #A41E5 !important;
+}
+
+.section-medium {
+    padding: 55px 0px;
+    background-color: #A41E58;
+}
+.testimonial-four blockquote:hover::after, .section-arrow-primary-color.section-arrow--bottom-center:after {
+    border-right-color: #A41E58;
+}
+.section-arrow-primary-color.section-arrow--bottom-center:after {
+    background-color: #A41E58;
+    border-right-color: #A41E58;
+    border-bottom-color: #A41E58;
+}
+.section-arrow--bottom-center:after {
+    z-index: 1;
+    position: absolute;
+    left: 50%;
+    margin-left: -15px;
+    content: "";
+    position: absolute;
+    bottom: -15px;
+    width: 30px;
+    height: 30px;
+    border-right: 1px solid #262626;
+    border-bottom: 1px solid #262626;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+    background-color: #262626;
+}
+.text-white h1, .text-white h2, .text-white h3, .text-white h4, .text-white h5, .text-white h6 {
+    color: white !important;
+}
+.section-title {
+    font-size: 32px;
+    font-weight: 600;
+    margin-top: 0.45em;
+    margin-bottom: 0.35em;
+    letter-spacing: -0.02em;
+}
+.section-sub-title {
+    font-size: 18px;
+    margin-bottom: 20px;
+    font-weight: 400;
+    color: #fff;
+}
+.section-arrow-primary-color.section-arrow--bottom-center:after {
+    border-bottom-color: #A41E58;
+}
+.section-arrow-primary-color.section-arrow--bottom-center:after{
+    background-color: #A41E58;
+}
+.special-heading.line span:before, .special-heading.line span:after, .footer.footer-minimal, .t-bordered {
+    border-top-color: #eaeaea;
+}
+.t-bordered {
+    border-top: 1px solid #eaeaea;
+}
+.section-primary {
+    padding: 75px 0px;
+}
+section {
+    position: relative;
+}
+
+.testimonial-three .testimonial-image {
+    float: left;
+    margin: 0 20px 0 0;
+    width: 80px;
+    height: 80px;
+    border-radius: 100px;
+    overflow: hidden;
+}
+
+.testimonial-three .testimonial-content {
+    overflow: hidden;
+}
+
+.testimonial-three .testimonial-meta {
+    position: relative;
+    overflow: hidden;
+    margin-left: 100px;
+}
+
+.testimonial-three .testimonial-name {
+    display: block;
+}
+
+
+.testimonial-three .testimonial-three-col {
+    padding-bottom: 35px;
+}
+
+.testimonial-three .testimonial-three-col {
+    padding: 25px;
+}
+
+.testimonial-three .testimonial-three-col:hover {
+   background-color: #facbcd;
+}
+
+.alternate-color .testimonial-three .testimonial-three-col:hover {
+   background-color:white;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
