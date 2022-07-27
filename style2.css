@@ -127,7 +127,7 @@ img.skill {
     margin: 10px 10px;
 }
 #logo {
-    width: 250px;"
+    width: 250px;
 }
 .portf { 
     display: flex;
@@ -271,7 +271,7 @@ footer {
       main { 
           padding-top: 0px; 
       }
-      .services, .contact-container {
+    .services, .contact-container {
         flex-direction: row;
     }
     .d-flex, .contact-container {
@@ -393,7 +393,7 @@ footer {
   .author {color: #2a2665;}
 
   .btn.btn-outline-primary:hover, .bg-primary {
-    background-color: #A41E5 !important;
+    background-color: #a41e58 !important;
 }
 
 .section-medium {
