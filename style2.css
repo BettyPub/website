@@ -108,14 +108,23 @@ a  {
 .headshot {
     width: 450px !important;
 }
-#abouttab {
+#abouttab, #skillstab {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
 }
+div.skills {
+    margin: 0px 60px;
+}
 .about {
     width: 600px;
+}
+.skills {
+    width: 800px;
+}
+img.skill {
+    margin: 10px 10px;
 }
 #logo {
     width: 250px;"
