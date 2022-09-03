@@ -1,7 +1,7 @@
 * {
     box-sizing: border-box;
     overflow-x: hidden;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'metrophobic', sans-serif;
   }
 .navbar-dark {
     background-color: #2A2765;
@@ -23,6 +23,7 @@ main {
 }
 h1, h2, h3, h5 {
     color: #A41E58;
+    font-family: 'Playfair Display Extrabold', sans-serif;
 }
 
 .headline {
@@ -38,7 +39,7 @@ h1, h2, h3, h5 {
 h1 {
     font-size: 16px;
     font-weight:900;
-    font-family: 'Montserrat-bold';
+    font-family: 'Playfair Display Extrabold';
 }
 h2 {
     padding: 30px 0px;
